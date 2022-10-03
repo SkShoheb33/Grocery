@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f4dfe6;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background: linear-gradient(to left, rgb(165, 111, 165), rgb(82, 73, 73))!Important;
+    height: 8vh !important;
+}
+
+.navbar .btn {
+    background-color: #d8b9c3!Important;
+    height: 5vh !important;
+    padding: 2px;
+}
+
+.navbar li a {
+    color: #fff !Important;
+}
+
+.navbar form .form-control {
+    height: 5vh !important;
+}
+
+.navbar .container .navbar-toggler {
+    height: 2vh !important;
+}
+
+.dropdown-item {
+    color: black !important;
+}
+
+#carouselExampleCaptions {
+    padding-top: 8vh !important;
+}
+
+.container .row,
+.container .col {
+    margin: 30px
+}
+
+.card {
+    box-shadow: 5px 10px gray;
+}
+
+.card:hover img {
+    border-radius: 20px;
+    transform: scale(1.08);
+}
+
+.footer {
+    background-color: #000;
+    width: 100%;
+    height: 40vh;
+}
+
+.smcard {
+    width: 60px;
+    height: 80px;
+}
+
+.name {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+}
